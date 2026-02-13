@@ -1,4 +1,2 @@
-/**
- * Table feature barrel export.
- * Add table-related exports here.
- */
+export { DataTable } from './DataTable';
+export type { DataTableProps, SortDirection, TableColumnConfig } from './DataTable';

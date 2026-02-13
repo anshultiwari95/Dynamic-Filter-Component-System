@@ -1,16 +1,5 @@
-/**
- * Core TypeScript types for the Dynamic Filter Component System.
- * Fully typed, scalable, with nested object support via dot-notation.
- */
-
-// =============================================================================
-// PRIMITIVE & PATH UTILITIES
-// =============================================================================
-
-/** Primitives that are leaf values in nested objects */
 type Primitive = string | number | boolean | Date;
 
-/** Recursively extracts dot-notation paths for nested objects (excludes arrays) */
 type _NestedKeyOf<T, Prefix extends string = ''> = T extends Primitive
   ? never
   : T extends Array<unknown>
@@ -31,7 +20,6 @@ type _NestedKeyOf<T, Prefix extends string = ''> = T extends Primitive
 
 export type NestedKeyOf<T> = _NestedKeyOf<T>;
 
-/** Extracts the value type at a dot-notation path (e.g. "address.city" -> string) */
 export type ValueAtPath<T, P extends string> = P extends `${infer K}.${infer Rest}`
   ? K extends keyof T
     ? ValueAtPath<T[K], Rest>
@@ -39,10 +27,6 @@ export type ValueAtPath<T, P extends string> = P extends `${infer K}.${infer Res
   : P extends keyof T
     ? T[P]
     : never;
-
-// =============================================================================
-// EMPLOYEE DATA MODEL
-// =============================================================================
 
 export interface Address {
   street: string;
@@ -60,13 +44,14 @@ export interface Employee {
   department: string;
   role: string;
   salary: number;
-  hireDate: string; // ISO 8601 date string
+  joinDate: string;
+  lastReview: string;
+  isActive: boolean;
+  skills: string[];
+  performanceRating: number;
+  projectsCount: number;
   address: Address;
 }
-
-// =============================================================================
-// FIELD TYPE & OPERATOR (String Literal Unions)
-// =============================================================================
 
 export type FieldType =
   | 'string'
@@ -76,10 +61,20 @@ export type FieldType =
   | 'select'
   | 'multiselect';
 
+export type DisplayFieldType =
+  | 'text'
+  | 'number'
+  | 'date'
+  | 'currency'
+  | 'boolean'
+  | 'singleSelect'
+  | 'multiSelect';
+
 export type Operator =
   | 'equals'
   | 'notEquals'
   | 'contains'
+  | 'doesNotContain'
   | 'startsWith'
   | 'endsWith'
   | 'isEmpty'
@@ -89,11 +84,66 @@ export type Operator =
   | 'greaterThanOrEqual'
   | 'lessThanOrEqual'
   | 'in'
-  | 'notIn';
+  | 'notIn'
+  | 'between';
 
-// =============================================================================
-// DEFAULT OPERATORS BY FIELD TYPE (for UX)
-// =============================================================================
+export const DEFAULT_OPERATORS_BY_DISPLAY_TYPE: Record<
+  DisplayFieldType,
+  readonly Operator[]
+> = {
+  text: [
+    'equals',
+    'notEquals',
+    'contains',
+    'doesNotContain',
+    'startsWith',
+    'endsWith',
+    'isEmpty',
+    'isNotEmpty',
+  ],
+  number: [
+    'equals',
+    'notEquals',
+    'greaterThan',
+    'lessThan',
+    'greaterThanOrEqual',
+    'lessThanOrEqual',
+    'isEmpty',
+    'isNotEmpty',
+  ],
+  date: [
+    'equals',
+    'notEquals',
+    'greaterThan',
+    'lessThan',
+    'greaterThanOrEqual',
+    'lessThanOrEqual',
+    'between',
+    'isEmpty',
+    'isNotEmpty',
+  ],
+  currency: [
+    'equals',
+    'notEquals',
+    'greaterThan',
+    'lessThan',
+    'greaterThanOrEqual',
+    'lessThanOrEqual',
+    'between',
+    'isEmpty',
+    'isNotEmpty',
+  ],
+  boolean: ['equals'],
+  singleSelect: [
+    'equals',
+    'notEquals',
+    'in',
+    'notIn',
+    'isEmpty',
+    'isNotEmpty',
+  ],
+  multiSelect: ['in', 'notIn', 'isEmpty', 'isNotEmpty'],
+} as const;
 
 export const DEFAULT_OPERATORS_BY_TYPE: Record<FieldType, readonly Operator[]> =
   {
@@ -101,6 +151,7 @@ export const DEFAULT_OPERATORS_BY_TYPE: Record<FieldType, readonly Operator[]> =
       'equals',
       'notEquals',
       'contains',
+      'doesNotContain',
       'startsWith',
       'endsWith',
       'isEmpty',
@@ -123,6 +174,7 @@ export const DEFAULT_OPERATORS_BY_TYPE: Record<FieldType, readonly Operator[]> =
       'lessThan',
       'greaterThanOrEqual',
       'lessThanOrEqual',
+      'between',
       'isEmpty',
       'isNotEmpty',
     ],
@@ -131,36 +183,42 @@ export const DEFAULT_OPERATORS_BY_TYPE: Record<FieldType, readonly Operator[]> =
     multiselect: ['in', 'notIn', 'isEmpty', 'isNotEmpty'],
   } as const;
 
-// =============================================================================
-// FIELD CONFIG
-// =============================================================================
-
 export interface SelectOption<V = string | number> {
   value: V;
   label: string;
+}
+
+export interface EmployeeFieldConfigItem<
+  K extends NestedKeyOf<Employee> = NestedKeyOf<Employee>,
+> {
+  accessor: K;
+  label: string;
+  type: DisplayFieldType;
+  allowedOperators: readonly Operator[];
+  options?: readonly SelectOption[];
 }
 
 export interface FieldConfig<
   T extends object,
   K extends NestedKeyOf<T> = NestedKeyOf<T>,
 > {
-  /** Dot-notation path to the field (e.g. "address.city") */
   field: K;
-  /** Human-readable label for the field */
   label: string;
-  /** Data type of the field */
   type: FieldType;
-  /** Operators available for this field (defaults by type if omitted) */
   operators?: readonly Operator[];
-  /** Options for select/multiselect fields */
   options?: readonly SelectOption[];
-  /** Placeholder for the value input */
   placeholder?: string;
 }
 
-// =============================================================================
-// FILTER CONDITION
-// =============================================================================
+export type FilterValue =
+  | string
+  | number
+  | boolean
+  | string[]
+  | number[]
+  | { start: string; end: string }
+  | { min: number; max: number }
+  | null;
 
 export interface FilterCondition<
   T extends object = object,
@@ -169,5 +227,5 @@ export interface FilterCondition<
   id: string;
   field: K;
   operator: Operator;
-  value: string | number | boolean | string[] | number[] | null;
+  value: FilterValue;
 }

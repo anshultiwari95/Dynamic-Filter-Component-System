@@ -1,11 +1,3 @@
-/**
- * Safely retrieves a nested value from an object using dot-notation path.
- * Supports paths like "address.city", "address.state", etc.
- *
- * @param obj - Source object
- * @param path - Dot-notation path (e.g. "address.city")
- * @returns Value at path, or undefined if path doesn't exist
- */
 export function getValueByPath<T extends object, P extends string>(
   obj: T,
   path: P
