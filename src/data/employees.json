@@ -1,0 +1,1482 @@
+{
+  "employees": [
+    {
+      "id": "emp-1",
+      "firstName": "Isabella",
+      "lastName": "Taylor",
+      "email": "isabella.taylor@example.com",
+      "department": "Engineering",
+      "role": "Tech Lead",
+      "salary": 77963,
+      "joinDate": "2019-02-07",
+      "lastReview": "2019-02-20",
+      "isActive": true,
+      "skills": [
+        "AWS",
+        "Java",
+        "Terraform",
+        "Docker",
+        "TensorFlow",
+        "Node.js"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 9,
+      "address": {
+        "street": "1240 Oak Ave",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "41194",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-2",
+      "firstName": "Liam",
+      "lastName": "Allen",
+      "email": "liam.allen@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 66570,
+      "joinDate": "2020-11-22",
+      "lastReview": "2021-09-20",
+      "isActive": true,
+      "skills": [
+        "PostgreSQL",
+        "TensorFlow",
+        "Angular",
+        "AWS",
+        "React"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 10,
+      "address": {
+        "street": "4719 Main St",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zipCode": "57601",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "emp-3",
+      "firstName": "Sofia",
+      "lastName": "Martin",
+      "email": "sofia.martin@example.com",
+      "department": "Engineering",
+      "role": "Software Engineer",
+      "salary": 129173,
+      "joinDate": "2024-12-09",
+      "lastReview": "2019-12-14",
+      "isActive": true,
+      "skills": [
+        "PostgreSQL",
+        "CI/CD",
+        "Redis",
+        "Go",
+        "Java"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 3,
+      "address": {
+        "street": "3739 Hill Rd",
+        "city": "London",
+        "state": "Greater London",
+        "zipCode": "73462",
+        "country": "UK"
+      }
+    },
+    {
+      "id": "emp-4",
+      "firstName": "Ella",
+      "lastName": "Hernandez",
+      "email": "ella.hernandez@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 98771,
+      "joinDate": "2024-12-13",
+      "lastReview": "2022-04-16",
+      "isActive": true,
+      "skills": [
+        "TypeScript",
+        "Python",
+        "Terraform"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 7,
+      "address": {
+        "street": "275 Park Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "24550",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-5",
+      "firstName": "Harper",
+      "lastName": "Wilson",
+      "email": "harper.wilson@example.com",
+      "department": "Engineering",
+      "role": "Senior Engineer",
+      "salary": 116237,
+      "joinDate": "2020-01-27",
+      "lastReview": "2021-12-25",
+      "isActive": true,
+      "skills": [
+        "Java",
+        "React",
+        "Node.js"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 3,
+      "address": {
+        "street": "1235 Hill Rd",
+        "city": "Boston",
+        "state": "MA",
+        "zipCode": "18144",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-6",
+      "firstName": "William",
+      "lastName": "Davis",
+      "email": "william.davis@example.com",
+      "department": "Sales",
+      "role": "Sales Lead",
+      "salary": 107816,
+      "joinDate": "2023-10-22",
+      "lastReview": "2025-01-26",
+      "isActive": true,
+      "skills": [
+        "Kubernetes",
+        "React",
+        "Terraform"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 10,
+      "address": {
+        "street": "607 Lake View Dr",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "71598",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-7",
+      "firstName": "Victoria",
+      "lastName": "Torres",
+      "email": "victoria.torres@example.com",
+      "department": "Engineering",
+      "role": "Tech Lead",
+      "salary": 114649,
+      "joinDate": "2024-11-10",
+      "lastReview": "2021-11-26",
+      "isActive": true,
+      "skills": [
+        "React",
+        "TensorFlow",
+        "Node.js"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 8,
+      "address": {
+        "street": "245 Cedar Ln",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "29243",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-8",
+      "firstName": "Liam",
+      "lastName": "Davis",
+      "email": "liam.davis@example.com",
+      "department": "HR",
+      "role": "Talent Manager",
+      "salary": 108810,
+      "joinDate": "2020-11-02",
+      "lastReview": "2023-05-02",
+      "isActive": true,
+      "skills": [
+        "Angular",
+        "Kubernetes",
+        "Python",
+        "AWS"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 9,
+      "address": {
+        "street": "4310 Cedar Ln",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "46007",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-9",
+      "firstName": "Mia",
+      "lastName": "Anderson",
+      "email": "mia.anderson@example.com",
+      "department": "Engineering",
+      "role": "QA Engineer",
+      "salary": 105482,
+      "joinDate": "2019-10-12",
+      "lastReview": "2023-11-14",
+      "isActive": true,
+      "skills": [
+        "Rust",
+        "React",
+        "TensorFlow",
+        "Docker",
+        "MongoDB",
+        "Vue.js"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 6,
+      "address": {
+        "street": "6992 Hill Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "72434",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-10",
+      "firstName": "Amelia",
+      "lastName": "Walker",
+      "email": "amelia.walker@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 65452,
+      "joinDate": "2023-11-27",
+      "lastReview": "2024-05-14",
+      "isActive": true,
+      "skills": [
+        "Redis",
+        "Docker",
+        "TensorFlow"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 0,
+      "address": {
+        "street": "6949 Maple Dr",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "32759",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-11",
+      "firstName": "Emma",
+      "lastName": "Torres",
+      "email": "emma.torres@example.com",
+      "department": "Engineering",
+      "role": "QA Engineer",
+      "salary": 76857,
+      "joinDate": "2023-06-14",
+      "lastReview": "2020-12-02",
+      "isActive": true,
+      "skills": [
+        "TensorFlow",
+        "Java"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 7,
+      "address": {
+        "street": "7990 Main St",
+        "city": "London",
+        "state": "Greater London",
+        "zipCode": "83852",
+        "country": "UK"
+      }
+    },
+    {
+      "id": "emp-12",
+      "firstName": "Aiden",
+      "lastName": "Thomas",
+      "email": "aiden.thomas@example.com",
+      "department": "Engineering",
+      "role": "Staff Engineer",
+      "salary": 137047,
+      "joinDate": "2023-01-12",
+      "lastReview": "2022-04-22",
+      "isActive": true,
+      "skills": [
+        "Python",
+        "AWS",
+        "Redis",
+        "TensorFlow",
+        "Terraform"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 1,
+      "address": {
+        "street": "6937 Lake View Dr",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "95765",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-13",
+      "firstName": "Aurora",
+      "lastName": "Williams",
+      "email": "aurora.williams@example.com",
+      "department": "Sales",
+      "role": "Account Executive",
+      "salary": 79160,
+      "joinDate": "2021-03-25",
+      "lastReview": "2019-04-26",
+      "isActive": true,
+      "skills": [
+        "Redis",
+        "Node.js",
+        "Angular",
+        "Terraform"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 2,
+      "address": {
+        "street": "4383 Park Ave",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "60907",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-14",
+      "firstName": "Zoey",
+      "lastName": "Hernandez",
+      "email": "zoey.hernandez@example.com",
+      "department": "Sales",
+      "role": "SDR",
+      "salary": 100527,
+      "joinDate": "2018-06-23",
+      "lastReview": "2024-02-07",
+      "isActive": false,
+      "skills": [
+        "GraphQL",
+        "React",
+        "SQL"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 10,
+      "address": {
+        "street": "9897 Oak Ave",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zipCode": "16762",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "emp-15",
+      "firstName": "Chloe",
+      "lastName": "Scott",
+      "email": "chloe.scott@example.com",
+      "department": "Sales",
+      "role": "Account Executive",
+      "salary": 73436,
+      "joinDate": "2021-04-21",
+      "lastReview": "2023-12-15",
+      "isActive": true,
+      "skills": [
+        "React",
+        "PostgreSQL",
+        "Node.js",
+        "SQL",
+        "Vue.js"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 8,
+      "address": {
+        "street": "6186 Maple Dr",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "75668",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-16",
+      "firstName": "Oliver",
+      "lastName": "Lopez",
+      "email": "oliver.lopez@example.com",
+      "department": "Operations",
+      "role": "Operations Manager",
+      "salary": 78349,
+      "joinDate": "2022-03-14",
+      "lastReview": "2025-08-09",
+      "isActive": true,
+      "skills": [
+        "Kubernetes",
+        "PostgreSQL",
+        "Rust",
+        "Docker",
+        "Redis"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 9,
+      "address": {
+        "street": "833 Hill Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "56933",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-17",
+      "firstName": "Penelope",
+      "lastName": "Mitchell",
+      "email": "penelope.mitchell@example.com",
+      "department": "Operations",
+      "role": "Operations Analyst",
+      "salary": 97235,
+      "joinDate": "2022-08-27",
+      "lastReview": "2024-02-19",
+      "isActive": true,
+      "skills": [
+        "Redis",
+        "Vue.js"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 6,
+      "address": {
+        "street": "4979 Cedar Ln",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "99344",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-18",
+      "firstName": "John",
+      "lastName": "Perez",
+      "email": "john.perez@example.com",
+      "department": "HR",
+      "role": "Recruiter",
+      "salary": 75647,
+      "joinDate": "2024-07-24",
+      "lastReview": "2023-09-03",
+      "isActive": true,
+      "skills": [
+        "AWS",
+        "TypeScript",
+        "Node.js",
+        "TensorFlow",
+        "React"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 3,
+      "address": {
+        "street": "8162 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "55883",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-19",
+      "firstName": "Jack",
+      "lastName": "Perez",
+      "email": "jack.perez@example.com",
+      "department": "Product",
+      "role": "Product Manager",
+      "salary": 108647,
+      "joinDate": "2024-12-17",
+      "lastReview": "2023-10-04",
+      "isActive": true,
+      "skills": [
+        "Vue.js",
+        "PostgreSQL",
+        "Terraform"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 1,
+      "address": {
+        "street": "2997 Hill Rd",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "20426",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-20",
+      "firstName": "Lucas",
+      "lastName": "Taylor",
+      "email": "lucas.taylor@example.com",
+      "department": "Sales",
+      "role": "Sales Manager",
+      "salary": 111623,
+      "joinDate": "2019-02-14",
+      "lastReview": "2020-03-20",
+      "isActive": true,
+      "skills": [
+        "Rust",
+        "Kubernetes",
+        "TensorFlow",
+        "Redis"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 0,
+      "address": {
+        "street": "7752 Pine Rd",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "27801",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-21",
+      "firstName": "Mia",
+      "lastName": "White",
+      "email": "mia.white@example.com",
+      "department": "Marketing",
+      "role": "Growth Lead",
+      "salary": 119348,
+      "joinDate": "2019-12-04",
+      "lastReview": "2022-02-12",
+      "isActive": true,
+      "skills": [
+        "Angular",
+        "React",
+        "Node.js",
+        "Redis",
+        "Kubernetes"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 4,
+      "address": {
+        "street": "514 Oak Ave",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zipCode": "96428",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-22",
+      "firstName": "Harper",
+      "lastName": "Baker",
+      "email": "harper.baker@example.com",
+      "department": "Operations",
+      "role": "Operations Manager",
+      "salary": 57547,
+      "joinDate": "2018-03-05",
+      "lastReview": "2021-10-14",
+      "isActive": true,
+      "skills": [
+        "Java",
+        "TensorFlow",
+        "Go"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 7,
+      "address": {
+        "street": "7055 Lake View Dr",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "10529",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-23",
+      "firstName": "Benjamin",
+      "lastName": "Martin",
+      "email": "benjamin.martin@example.com",
+      "department": "Marketing",
+      "role": "SEO Analyst",
+      "salary": 98825,
+      "joinDate": "2018-05-20",
+      "lastReview": "2022-12-14",
+      "isActive": true,
+      "skills": [
+        "AWS",
+        "Vue.js",
+        "Java"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 1,
+      "address": {
+        "street": "5496 Lake View Dr",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "99351",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-24",
+      "firstName": "Jack",
+      "lastName": "Campbell",
+      "email": "jack.campbell@example.com",
+      "department": "Operations",
+      "role": "Operations Manager",
+      "salary": 99390,
+      "joinDate": "2022-03-09",
+      "lastReview": "2021-06-16",
+      "isActive": true,
+      "skills": [
+        "React",
+        "Rust",
+        "Angular",
+        "MongoDB",
+        "TensorFlow"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 3,
+      "address": {
+        "street": "9751 Oak Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "68850",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-25",
+      "firstName": "Samuel",
+      "lastName": "Wilson",
+      "email": "samuel.wilson@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 93132,
+      "joinDate": "2018-08-09",
+      "lastReview": "2024-12-09",
+      "isActive": true,
+      "skills": [
+        "Redis",
+        "Node.js"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 3,
+      "address": {
+        "street": "3412 Pine Rd",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "36980",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-26",
+      "firstName": "William",
+      "lastName": "Walker",
+      "email": "william.walker@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 70850,
+      "joinDate": "2020-11-19",
+      "lastReview": "2019-12-23",
+      "isActive": true,
+      "skills": [
+        "Docker",
+        "Vue.js",
+        "GraphQL",
+        "Go",
+        "Java"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 1,
+      "address": {
+        "street": "3839 Pine Rd",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "96136",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-27",
+      "firstName": "Elijah",
+      "lastName": "Roberts",
+      "email": "elijah.roberts@example.com",
+      "department": "Marketing",
+      "role": "Brand Specialist",
+      "salary": 108543,
+      "joinDate": "2019-04-22",
+      "lastReview": "2020-01-13",
+      "isActive": true,
+      "skills": [
+        "GraphQL",
+        "AWS",
+        "Kubernetes",
+        "Docker",
+        "Go",
+        "Vue.js"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 4,
+      "address": {
+        "street": "7241 Pine Rd",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "12345",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-28",
+      "firstName": "Avery",
+      "lastName": "Flores",
+      "email": "avery.flores@example.com",
+      "department": "Operations",
+      "role": "Operations Analyst",
+      "salary": 77540,
+      "joinDate": "2021-08-23",
+      "lastReview": "2022-08-21",
+      "isActive": false,
+      "skills": [
+        "MongoDB",
+        "React"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 9,
+      "address": {
+        "street": "7819 Lake View Dr",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "75923",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-29",
+      "firstName": "Elijah",
+      "lastName": "Green",
+      "email": "elijah.green@example.com",
+      "department": "Design",
+      "role": "Product Designer",
+      "salary": 104632,
+      "joinDate": "2018-10-18",
+      "lastReview": "2020-05-11",
+      "isActive": false,
+      "skills": [
+        "Rust",
+        "SQL",
+        "CI/CD",
+        "GraphQL"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 4,
+      "address": {
+        "street": "9720 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "92815",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-30",
+      "firstName": "Henry",
+      "lastName": "Hill",
+      "email": "henry.hill@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 106694,
+      "joinDate": "2021-08-16",
+      "lastReview": "2024-03-14",
+      "isActive": true,
+      "skills": [
+        "AWS",
+        "PostgreSQL"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 5,
+      "address": {
+        "street": "5109 Hill Rd",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zipCode": "29137",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "emp-31",
+      "firstName": "Mason",
+      "lastName": "Gonzalez",
+      "email": "mason.gonzalez@example.com",
+      "department": "Sales",
+      "role": "Sales Manager",
+      "salary": 128730,
+      "joinDate": "2019-01-26",
+      "lastReview": "2025-09-06",
+      "isActive": false,
+      "skills": [
+        "Docker",
+        "React",
+        "GraphQL",
+        "Go"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 1,
+      "address": {
+        "street": "8680 Main St",
+        "city": "London",
+        "state": "Greater London",
+        "zipCode": "72041",
+        "country": "UK"
+      }
+    },
+    {
+      "id": "emp-32",
+      "firstName": "Oliver",
+      "lastName": "Baker",
+      "email": "oliver.baker@example.com",
+      "department": "HR",
+      "role": "HR Specialist",
+      "salary": 63698,
+      "joinDate": "2020-11-03",
+      "lastReview": "2022-03-02",
+      "isActive": true,
+      "skills": [
+        "CI/CD",
+        "React",
+        "Node.js",
+        "TensorFlow"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 2,
+      "address": {
+        "street": "5331 Park Ave",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "41778",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-33",
+      "firstName": "Owen",
+      "lastName": "Martinez",
+      "email": "owen.martinez@example.com",
+      "department": "Marketing",
+      "role": "Content Strategist",
+      "salary": 100112,
+      "joinDate": "2024-06-04",
+      "lastReview": "2023-02-20",
+      "isActive": true,
+      "skills": [
+        "TypeScript",
+        "AWS",
+        "TensorFlow"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 0,
+      "address": {
+        "street": "2746 Park Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "27357",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-34",
+      "firstName": "Evelyn",
+      "lastName": "Hill",
+      "email": "evelyn.hill@example.com",
+      "department": "Operations",
+      "role": "Supply Chain Specialist",
+      "salary": 79559,
+      "joinDate": "2019-03-18",
+      "lastReview": "2020-09-02",
+      "isActive": true,
+      "skills": [
+        "Vue.js",
+        "Kubernetes",
+        "TypeScript",
+        "Docker",
+        "Angular",
+        "MongoDB"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 9,
+      "address": {
+        "street": "4407 Cedar Ln",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "59429",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-35",
+      "firstName": "Elijah",
+      "lastName": "Flores",
+      "email": "elijah.flores@example.com",
+      "department": "Marketing",
+      "role": "Growth Lead",
+      "salary": 118646,
+      "joinDate": "2018-02-07",
+      "lastReview": "2019-06-07",
+      "isActive": true,
+      "skills": [
+        "Rust",
+        "Docker",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 6,
+      "address": {
+        "street": "1249 Lake View Dr",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "62637",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-36",
+      "firstName": "Charlotte",
+      "lastName": "White",
+      "email": "charlotte.white@example.com",
+      "department": "Design",
+      "role": "Design Lead",
+      "salary": 103725,
+      "joinDate": "2021-08-23",
+      "lastReview": "2023-11-24",
+      "isActive": true,
+      "skills": [
+        "Python",
+        "Terraform",
+        "Java",
+        "CI/CD",
+        "TensorFlow",
+        "MongoDB"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 8,
+      "address": {
+        "street": "4705 Elm St",
+        "city": "Boston",
+        "state": "MA",
+        "zipCode": "27949",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-37",
+      "firstName": "Amelia",
+      "lastName": "Brown",
+      "email": "amelia.brown@example.com",
+      "department": "Engineering",
+      "role": "QA Engineer",
+      "salary": 94083,
+      "joinDate": "2023-06-05",
+      "lastReview": "2019-11-26",
+      "isActive": true,
+      "skills": [
+        "Terraform",
+        "React"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 2,
+      "address": {
+        "street": "9898 Park Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "90226",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-38",
+      "firstName": "Mateo",
+      "lastName": "Hernandez",
+      "email": "mateo.hernandez@example.com",
+      "department": "HR",
+      "role": "HR Business Partner",
+      "salary": 57818,
+      "joinDate": "2018-02-27",
+      "lastReview": "2021-10-10",
+      "isActive": true,
+      "skills": [
+        "Vue.js",
+        "TypeScript"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 3,
+      "address": {
+        "street": "4351 Elm St",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "51890",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-39",
+      "firstName": "Evelyn",
+      "lastName": "Mitchell",
+      "email": "evelyn.mitchell@example.com",
+      "department": "Sales",
+      "role": "SDR",
+      "salary": 83106,
+      "joinDate": "2020-06-28",
+      "lastReview": "2024-07-28",
+      "isActive": false,
+      "skills": [
+        "Python",
+        "Docker",
+        "Vue.js",
+        "TensorFlow",
+        "Java"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 4,
+      "address": {
+        "street": "4054 Lake View Dr",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "84026",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-40",
+      "firstName": "Alexander",
+      "lastName": "Martinez",
+      "email": "alexander.martinez@example.com",
+      "department": "Design",
+      "role": "Design Lead",
+      "salary": 112523,
+      "joinDate": "2021-04-23",
+      "lastReview": "2019-07-03",
+      "isActive": true,
+      "skills": [
+        "GraphQL",
+        "React",
+        "Vue.js"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 4,
+      "address": {
+        "street": "8891 Elm St",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zipCode": "16635",
+        "country": "Germany"
+      }
+    },
+    {
+      "id": "emp-41",
+      "firstName": "Henry",
+      "lastName": "Rivera",
+      "email": "henry.rivera@example.com",
+      "department": "Finance",
+      "role": "Finance Manager",
+      "salary": 74013,
+      "joinDate": "2018-01-23",
+      "lastReview": "2024-08-21",
+      "isActive": true,
+      "skills": [
+        "GraphQL",
+        "Rust",
+        "MongoDB",
+        "TypeScript"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 1,
+      "address": {
+        "street": "2446 Hill Rd",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zipCode": "98829",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-42",
+      "firstName": "Mia",
+      "lastName": "Hernandez",
+      "email": "mia.hernandez@example.com",
+      "department": "Marketing",
+      "role": "Marketing Manager",
+      "salary": 119504,
+      "joinDate": "2021-08-09",
+      "lastReview": "2021-07-10",
+      "isActive": true,
+      "skills": [
+        "Go",
+        "Redis",
+        "Node.js"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 7,
+      "address": {
+        "street": "9141 Lake View Dr",
+        "city": "San Diego",
+        "state": "CA",
+        "zipCode": "81344",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-43",
+      "firstName": "Scarlett",
+      "lastName": "Johnson",
+      "email": "scarlett.johnson@example.com",
+      "department": "Design",
+      "role": "UI Designer",
+      "salary": 121394,
+      "joinDate": "2022-12-11",
+      "lastReview": "2019-03-09",
+      "isActive": true,
+      "skills": [
+        "React",
+        "Rust",
+        "Kubernetes",
+        "AWS"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 5,
+      "address": {
+        "street": "513 Park Ave",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "31660",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-44",
+      "firstName": "Liam",
+      "lastName": "Jones",
+      "email": "liam.jones@example.com",
+      "department": "Engineering",
+      "role": "Software Engineer",
+      "salary": 118322,
+      "joinDate": "2019-04-21",
+      "lastReview": "2021-04-28",
+      "isActive": true,
+      "skills": [
+        "GraphQL",
+        "TypeScript"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 3,
+      "address": {
+        "street": "7098 Lake View Dr",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "62223",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-45",
+      "firstName": "Lily",
+      "lastName": "Young",
+      "email": "lily.young@example.com",
+      "department": "Marketing",
+      "role": "Growth Lead",
+      "salary": 113401,
+      "joinDate": "2021-12-23",
+      "lastReview": "2019-03-08",
+      "isActive": true,
+      "skills": [
+        "MongoDB",
+        "Kubernetes",
+        "Angular",
+        "Terraform",
+        "Vue.js"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 0,
+      "address": {
+        "street": "6269 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "75040",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-46",
+      "firstName": "Benjamin",
+      "lastName": "Scott",
+      "email": "benjamin.scott@example.com",
+      "department": "Sales",
+      "role": "Sales Lead",
+      "salary": 82497,
+      "joinDate": "2021-08-02",
+      "lastReview": "2019-12-01",
+      "isActive": true,
+      "skills": [
+        "SQL",
+        "Kubernetes"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 4,
+      "address": {
+        "street": "7932 Park Ave",
+        "city": "Miami",
+        "state": "FL",
+        "zipCode": "38123",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-47",
+      "firstName": "Henry",
+      "lastName": "Miller",
+      "email": "henry.miller@example.com",
+      "department": "Marketing",
+      "role": "Brand Specialist",
+      "salary": 88193,
+      "joinDate": "2023-04-28",
+      "lastReview": "2020-09-23",
+      "isActive": true,
+      "skills": [
+        "GraphQL",
+        "Vue.js"
+      ],
+      "performanceRating": 2,
+      "projectsCount": 8,
+      "address": {
+        "street": "917 Main St",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "38692",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-48",
+      "firstName": "Liam",
+      "lastName": "Jones",
+      "email": "liam.jones@example.com",
+      "department": "Engineering",
+      "role": "Staff Engineer",
+      "salary": 138507,
+      "joinDate": "2018-11-08",
+      "lastReview": "2025-12-27",
+      "isActive": true,
+      "skills": [
+        "Kubernetes",
+        "Vue.js",
+        "TypeScript",
+        "Rust",
+        "Node.js"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 10,
+      "address": {
+        "street": "592 Hill Rd",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "11421",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-49",
+      "firstName": "Mason",
+      "lastName": "Lopez",
+      "email": "mason.lopez@example.com",
+      "department": "HR",
+      "role": "People Ops",
+      "salary": 75244,
+      "joinDate": "2019-06-25",
+      "lastReview": "2023-05-15",
+      "isActive": true,
+      "skills": [
+        "AWS",
+        "GraphQL",
+        "Rust",
+        "CI/CD"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 1,
+      "address": {
+        "street": "1830 Hill Rd",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "16046",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-50",
+      "firstName": "Abigail",
+      "lastName": "Perez",
+      "email": "abigail.perez@example.com",
+      "department": "Finance",
+      "role": "Finance Manager",
+      "salary": 63935,
+      "joinDate": "2022-05-10",
+      "lastReview": "2024-07-06",
+      "isActive": true,
+      "skills": [
+        "React",
+        "PostgreSQL",
+        "Rust",
+        "GraphQL",
+        "Kubernetes"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 8,
+      "address": {
+        "street": "6290 Cedar Ln",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "76036",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-51",
+      "firstName": "Joseph",
+      "lastName": "Jackson",
+      "email": "joseph.jackson@example.com",
+      "department": "Design",
+      "role": "Design Lead",
+      "salary": 68125,
+      "joinDate": "2019-03-12",
+      "lastReview": "2021-07-21",
+      "isActive": true,
+      "skills": [
+        "Vue.js",
+        "Docker",
+        "Go",
+        "GraphQL"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 9,
+      "address": {
+        "street": "8542 Main St",
+        "city": "London",
+        "state": "Greater London",
+        "zipCode": "69908",
+        "country": "UK"
+      }
+    },
+    {
+      "id": "emp-52",
+      "firstName": "Penelope",
+      "lastName": "Scott",
+      "email": "penelope.scott@example.com",
+      "department": "Product",
+      "role": "Product Manager",
+      "salary": 141967,
+      "joinDate": "2022-02-03",
+      "lastReview": "2021-04-10",
+      "isActive": true,
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "PostgreSQL",
+        "Java",
+        "Vue.js"
+      ],
+      "performanceRating": 1,
+      "projectsCount": 6,
+      "address": {
+        "street": "546 Park Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipCode": "16114",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-53",
+      "firstName": "Aiden",
+      "lastName": "Robinson",
+      "email": "aiden.robinson@example.com",
+      "department": "Engineering",
+      "role": "Tech Lead",
+      "salary": 86502,
+      "joinDate": "2023-12-12",
+      "lastReview": "2022-11-12",
+      "isActive": true,
+      "skills": [
+        "React",
+        "MongoDB",
+        "CI/CD",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "performanceRating": 3,
+      "projectsCount": 1,
+      "address": {
+        "street": "9565 Lake View Dr",
+        "city": "Toronto",
+        "state": "Ontario",
+        "zipCode": "76828",
+        "country": "Canada"
+      }
+    },
+    {
+      "id": "emp-54",
+      "firstName": "Evelyn",
+      "lastName": "Smith",
+      "email": "evelyn.smith@example.com",
+      "department": "Engineering",
+      "role": "DevOps Engineer",
+      "salary": 85399,
+      "joinDate": "2022-09-06",
+      "lastReview": "2024-04-21",
+      "isActive": true,
+      "skills": [
+        "React",
+        "Node.js",
+        "Docker",
+        "Java",
+        "MongoDB"
+      ],
+      "performanceRating": 5,
+      "projectsCount": 9,
+      "address": {
+        "street": "6682 Oak Ave",
+        "city": "Denver",
+        "state": "CO",
+        "zipCode": "81057",
+        "country": "USA"
+      }
+    },
+    {
+      "id": "emp-55",
+      "firstName": "Gabriel",
+      "lastName": "Brown",
+      "email": "gabriel.brown@example.com",
+      "department": "HR",
+      "role": "Recruiter",
+      "salary": 77370,
+      "joinDate": "2023-12-01",
+      "lastReview": "2019-09-07",
+      "isActive": true,
+      "skills": [
+        "MongoDB",
+        "Java"
+      ],
+      "performanceRating": 4,
+      "projectsCount": 5,
+      "address": {
+        "street": "1928 Pine Rd",
+        "city": "Berlin",
+        "state": "Berlin",
+        "zipCode": "12353",
+        "country": "Germany"
+      }
+    }
+  ]
+}

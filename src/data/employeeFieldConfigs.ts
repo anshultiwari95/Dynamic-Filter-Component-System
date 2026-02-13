@@ -2,10 +2,6 @@ import type { FieldConfig } from '../types';
 import type { Employee } from '../types';
 import { DEFAULT_OPERATORS_BY_TYPE } from '../types';
 
-/**
- * Field configurations for filtering Employee data.
- * Demonstrates nested dot-notation support (e.g. address.city).
- */
 export const employeeFieldConfigs: FieldConfig<Employee>[] = [
   {
     field: 'firstName',
@@ -51,8 +47,8 @@ export const employeeFieldConfigs: FieldConfig<Employee>[] = [
     placeholder: 'Enter amount',
   },
   {
-    field: 'hireDate',
-    label: 'Hire Date',
+    field: 'joinDate',
+    label: 'Join Date',
     type: 'date',
     placeholder: 'Select date',
   },
@@ -73,5 +69,36 @@ export const employeeFieldConfigs: FieldConfig<Employee>[] = [
     label: 'Country',
     type: 'string',
     placeholder: 'Enter country',
+  },
+  {
+    field: 'isActive',
+    label: 'Active',
+    type: 'boolean',
+  },
+  {
+    field: 'performanceRating',
+    label: 'Performance Rating',
+    type: 'number',
+    operators: DEFAULT_OPERATORS_BY_TYPE.number,
+  },
+  {
+    field: 'projectsCount',
+    label: 'Projects Count',
+    type: 'number',
+    operators: DEFAULT_OPERATORS_BY_TYPE.number,
+  },
+  {
+    field: 'skills',
+    label: 'Skills',
+    type: 'multiselect',
+    options: [
+      { value: 'React', label: 'React' },
+      { value: 'Node.js', label: 'Node.js' },
+      { value: 'TypeScript', label: 'TypeScript' },
+      { value: 'GraphQL', label: 'GraphQL' },
+      { value: 'Python', label: 'Python' },
+      { value: 'AWS', label: 'AWS' },
+      { value: 'Docker', label: 'Docker' },
+    ],
   },
 ];
