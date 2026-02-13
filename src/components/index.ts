@@ -1,4 +1,6 @@
-/**
- * Shared components barrel export.
- * Add component exports here as they are created.
- */
+export {
+  DynamicInput,
+  type DynamicInputProps,
+  type DateRangeValue,
+  type CurrencyRangeValue,
+} from './DynamicInput';
