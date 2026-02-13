@@ -1,9 +1,4 @@
 #!/usr/bin/env node
-/**
- * Data generator for Employee records.
- * Produces realistic data with varied departments, roles, salaries, etc.
- * Run: node scripts/generateEmployees.mjs
- */
 
 import { writeFileSync, mkdirSync } from 'fs';
 import { fileURLToPath } from 'url';
@@ -12,7 +7,6 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// --- Seed data ---
 const FIRST_NAMES = [
   'James', 'Emma', 'Oliver', 'Sophia', 'William', 'Isabella', 'Liam', 'Mia',
   'Noah', 'Charlotte', 'Benjamin', 'Amelia', 'Elijah', 'Harper', 'Lucas',
